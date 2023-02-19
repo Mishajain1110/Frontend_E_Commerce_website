@@ -1,0 +1,414 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    /*To make a sticky navigation bar */
+}
+
+main {
+    position: relative;
+}
+
+footer {
+    position: relative;
+}
+
+.navbar {
+    background-color: #372997;
+    color: white;
+    height: 9vh;
+    display: flex;
+}
+
+.navbar ul {
+    transform: translateX(283px);
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 14px 2px;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+}
+
+.navbar form {
+    background-color: #fff;
+    width: 450px;
+    height: 20px;
+    display: flex;
+    margin: 20px;
+    padding: 5px;
+    transform: translate(90px);
+}
+
+.navbar form input {
+    flex: 1;
+    border: none;
+    outline: none;
+}
+
+.navbar form button {
+    background-color: #372997;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.container1 img {
+    width: 100vw;
+    height: 67vh;
+}
+
+.container1 ul li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+
+.container1 ul li a {
+    color: #372997;
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+.class1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.class2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.heading {
+    font-size: 45px;
+    font-weight: 550;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.subcontainer1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.description {
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 400;
+}
+
+.green {
+    color: rgb(27, 137, 2);
+}
+
+#Door {
+    transform: translate(-29px);
+}
+
+#Pipe {
+    transform: translate(-93px);
+}
+
+#Paint {
+    transform: translate(-106px);
+}
+
+#Plywood {
+    transform: translate(-117px);
+}
+
+#Brick {
+    transform: translate(-27px);
+}
+
+#Drug {
+    transform: translate(-10px);
+}
+
+#Fit {
+    transform: translate(-39px);
+}
+
+#Equipment {
+    transform: translate(-140px);
+}
+
+#Service {
+    transform: translate(-87px);
+}
+
+#Diet {
+    transform: translate(-22px);
+    /*All the commands are written so that text is just below the image*/
+}
+
+#Lehenga {
+    transform: translate(-3px);
+}
+
+#Shirt {
+    transform: translate(-13px);
+}
+
+#Shoes {
+    transform: translate(-82px);
+}
+
+#Trouser {
+    transform: translate(-38px);
+}
+
+#Fabric {
+    transform: translate(-11px);
+}
+
+#Vegetable {
+    transform: translate(10px);
+}
+
+#Seed {
+    transform: translate(46px);
+}
+
+#Pulse {
+    transform: translate(58px);
+}
+
+#Fertilizer {
+    transform: translate(12px);
+}
+
+#Machine {
+    transform: translate(-5px);
+}
+
+.download {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.information1 {
+    width: 600px;
+}
+
+.download .information1 h1 {
+    -webkit-text-stroke: 0.05vw black;
+    font-size: 30px;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 1px solid white;
+    padding-right: 3px;
+    animation: typing 3s steps(29) infinite alternate, blink 0.7s 1;
+    /*To perform text animation effect*/
+}
+
+@keyframes typing {
+    0% {
+        width: 0%;
+        visibility: hidden;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border: transparent;
+    }
+
+    100% {
+        border-color: black;
+        border-color: transparent;
+    }
+}
+
+.download h2 {
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.download p {
+    font-size: large
+}
+
+.download .information1 form {
+    margin-top: 30px;
+}
+
+.information1 form {
+    background-color: #fff;
+    width: 450px;
+    height: 20px;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.information1 form input {
+    flex: 1;
+    /*so that the search bar will cover entire space of the form tag*/
+}
+
+.information1 form button {
+    background-color: rgb(36, 177, 177);
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+footer {
+    height: 4vh;
+    background-color: #372997;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.information2 {
+    display: flex;
+}
+
+.information2 .follow {
+    transform: translate(915px);
+    display: flex;
+}
+
+.information2 .follow a {
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.listitem ul li {
+    display: inline-block;
+    color: black;
+    margin: 1px 3px;
+    padding: 10px;
+}
+
+.listitem ul li a {
+    color: #372997;
+    text-decoration: none;
+    font-size: medium;
+
+}
+
+footer p {
+    font-size: medium;
+    color: white;
+}
+
+/*hover property of CSS*/
+a:hover {
+    text-decoration-color: white;
+    font-weight: bold;
+}
+
+.green:hover {
+    font-weight: bold;
+}
+
+/*For dark and light mode*/
+.dark-mode {
+    color: white;
+    background-color: black;
+}
+
+.navbar ul li button {
+    cursor: pointer;
+}
+/*an attempt to amke a responsive website*/
+@media only screen and (max-width :800px) {
+    .navbar form {
+        width: 400px;
+        height: 16px;
+        margin: 20px 30px;
+        transform: translate(60px);
+    }
+
+    #Pipe {
+        transform: translate(-28px);
+    }
+
+    #Paint {
+        transform: translate(-64px);
+    }
+
+    #Plywood {
+        transform: translate(-66px);
+    }
+
+    #Equipment {
+        transform: translate(-108px);
+    }
+
+    /*remove class is made to make a responsive website*/
+    .remove {
+        display: none;
+    }
+
+    .information1 form {
+        width: 300px;
+    }
+
+    .information1 form input {
+        flex: 1;
+    }
+
+    .information1 {
+        width: 450px;
+    }
+
+    .download .information1 h1 {
+        font-size: 20px;
+    }
+
+    .download h2 {
+        margin-top: 20px;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+    }
+
+    .download p {
+        font-size: medium
+    }
+
+    .information2 .follow {
+        transform: translate(141px);
+        display: flex;
+    }
+
+    footer p {
+        font-size: small;
+        color: white;
+    }
+}
