@@ -1,7 +1,7 @@
 
 # Frontend Task
 
-This is Question 1 of the frontend project: "Front-end for a Product Details Page" for the induction in the Software Development division of the Programming Club at IIT Indore. The task involves using HTML, CSS, and Javascript to create a basic website with some simple Javascript features. I referred to various sources on YouTube for effects such as text animation, dark/light mode, and implemented them in this project. I used images from Google as a reference to implement them in the code.
+This task was provided by my college club at IIT Indore, for web development involving creating a basic website using HTML, CSS, and JavaScript, along with incorporating some simple JavaScript features. To complete this project, I referred to various sources on YouTube to gain knowledge about different effects and then implemented them in the website's code. I used images from Google as references to help me with the implementation process.
 Screenshots of my project are-
 
 
